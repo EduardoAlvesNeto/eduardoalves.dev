@@ -22,6 +22,13 @@ export const metadata: Metadata = {
     "Programador Frontend",
     "Programador Backend"
   ],
+  openGraph: {
+    title: "Eduardo Alves | Desenvolvedor Fullstack",
+    description: "Crio aplicações modernas com React, Next.js e Node.js.",
+    url: "https://www.eduardoalves.dev",
+    siteName: "Eduardo Alves Dev",
+    type: "website",
+  },
   authors: [{ name: "Eduardo Alves", url: "https://eduardoalves.dev" }],
 };
 
@@ -40,7 +47,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${font.variable} antialiased`}
+        className={`${font.variable} antialiased overflow-x-hidden`}
       >
         {children}
       </body>
