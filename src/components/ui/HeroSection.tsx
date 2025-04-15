@@ -1,10 +1,7 @@
 'use client'
 
-import Image from 'next/image'
 import { Messages1, DocumentDownload, Mouse } from 'iconsax-react'
 import { AnimatePresence, motion } from 'motion/react'
-
-import Mockup from '@/../public/mockup.png'
 
 export default function HeroSection() {
     return (
@@ -38,11 +35,11 @@ export default function HeroSection() {
                 </div>
 
                 <div className="hidden md:flex justify-center">
-                    <Image
-                        className="w-[300px] sm:w-[400px] object-contain"
-                        src={Mockup}
+                    <img
+                        className="w-[300px] sm:w-[400px]"
+                        src='mockup.webp'
                         alt="Mockup"
-                        priority
+                        loading='lazy'
                     />
                 </div>
             </div>

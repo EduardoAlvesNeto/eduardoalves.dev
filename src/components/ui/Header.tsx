@@ -15,6 +15,9 @@ export default function Header() {
                 whileTap={{
                     scale: 0.9,
                 }}
+                initial={{
+                    scale: 1
+                }}
                 transition={{
                     type: 'spring',
                     stiffness: '150'
