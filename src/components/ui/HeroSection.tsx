@@ -23,14 +23,18 @@ export default function HeroSection() {
                     </div>
 
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button className="flex items-center justify-center gap-2 px-6 py-3 bg-zinc-900 text-white rounded-xl transition hover:bg-zinc-800 cursor-pointer">
-                            <Messages1 className="size-6 fill-white" variant="Bold" />
-                            <span>Entre em contato</span>
-                        </button>
-                        <button className="cursor-pointer flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-xl transition hover:bg-blue-500">
-                            <DocumentDownload className="size-6 fill-white" variant="Bold" />
-                            <span>Baixar Currículo</span>
-                        </button>
+                        <a href="#contact">
+                            <button className="flex items-center justify-center gap-2 px-6 py-3 bg-zinc-900 text-white rounded-xl transition hover:bg-zinc-800 cursor-pointer">
+                                <Messages1 className="size-6 fill-white" variant="Bold" />
+                                <span>Entre em contato</span>
+                            </button>
+                        </a>
+                        <a href='Curriculo.pdf' download>
+                            <button className="cursor-pointer flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-xl transition hover:bg-blue-500">
+                                <DocumentDownload className="size-6 fill-white" variant="Bold" />
+                                <span>Baixar Currículo</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
 

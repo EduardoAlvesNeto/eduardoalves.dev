@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Outfit, Inter } from "next/font/google";
 import "./globals.css";
 
-const font = Outfit({
+const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
 });
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"]
+})
 
 export const metadata: Metadata = {
   title: "Eduardo Alves — Desenvolvedor Fullstack",
@@ -38,7 +43,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className="scroll-smooth [&::-webkit-scrollbar]:w-2
+  [&::-webkit-scrollbar-track]:bg-zinc-100
+  [&::-webkit-scrollbar-thumb]:bg-zinc-400 [&::-webkit-scrollbar-thumb]:rounded-full">
       <head>
         <link
           rel="icon"
@@ -46,10 +53,10 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${font.variable} antialiased overflow-x-hidden`}
+        className={`${outfit.variable} ${inter.variable} antialiased overflow-x-hidden`}
       >
         {children}
       </body>
-    </html>
+    </html >
   );
 }

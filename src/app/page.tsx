@@ -1,6 +1,7 @@
 import Header from "@/components/ui/Header";
 import HeroSection from "@/components/ui/HeroSection";
 import StackSection from "@/components/ui/StackSection";
+import ContactSection from "@/components/ui/ContactSection";
 import Footer from "@/components/ui/Footer";
 
 import ReactPNG from '@/../public/react.png'
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <StackSection />
+      <ContactSection />
       <Footer />
     </div>
   );

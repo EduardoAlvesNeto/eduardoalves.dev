@@ -30,14 +30,22 @@ export default function Header() {
                 <ul className="flex gap-4 text-sm text-zinc-900">
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#stack">Soluções</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="#contact">Contato</a></li>
                     <li><a href="">Sobre mim</a></li>
                 </ul>
             </nav>
-            <button className="flex px-4 py-2 gap-3 bg-zinc-900 rounded-lg cursor-pointer">
-                <GithubIcon />
-                <span className="text-zinc-100">Github</span>
-            </button>
+
+            <a
+                href="https://github.com/EduardoAlvesNeto"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Github"
+            >
+                <button className="flex px-4 py-2 gap-3 bg-zinc-900 rounded-lg cursor-pointer">
+                    <GithubIcon />
+                    <span className="text-zinc-100">Github</span>
+                </button>
+            </a>
         </header>
     )
 }
