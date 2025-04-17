@@ -18,10 +18,9 @@ export default function ContactSection() {
                     href="https://wa.me/558496793578?text=Olá%2C%20gostaria%20de%20falar%20sobre%20meu%20projeto"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="cursor-pointer flex items-center justify-center gap-2 px-6 py-3 bg-zinc-100 text-zinc-900 rounded-lg transition hover:bg-zinc-200 hover:outline-blue-600 outline-2 outline-zinc-100 outline-offset-4 duration-200"
                 >
-                    <button className="cursor-pointer flex items-center justify-center gap-2 px-6 py-3 bg-zinc-100 text-zinc-900 rounded-lg transition hover:bg-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                        <span>Entre em contato</span>
-                    </button>
+                    <span>Entre em contato</span>
                 </a>
             </div>
 
@@ -32,7 +31,7 @@ export default function ContactSection() {
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
                 >
-                    <LinkedinIcon className="size-8 duration-300 fill-zinc-300 hover:fill-[#0A66C2] transition-all" />
+                    <LinkedinIcon className="size-8 duration-300 fill-zinc-100 hover:fill-[#0A66C2] transition-all" />
                 </a>
                 <a
                     href="https://www.instagram.com/duardodev/"
@@ -40,7 +39,7 @@ export default function ContactSection() {
                     rel="noopener noreferrer"
                     aria-label="Instagram"
                 >
-                    <InstagramIcon className="size-8 duration-300 fill-zinc-300 hover:fill-[#E1306C] rounded-sm transition-all" />
+                    <InstagramIcon className="size-8 duration-300 fill-zinc-100 hover:fill-[#E1306C] rounded-sm transition-all" />
                 </a>
             </div>
         </section>

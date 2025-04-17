@@ -28,10 +28,11 @@ export default function Header() {
             </motion.div>
             <nav className="hidden sm:flex">
                 <ul className="flex gap-4 text-sm text-zinc-900">
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#stack">Soluções</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                    <li><a href="">Sobre mim</a></li>
+                    <li className="hover:text-blue-600 hover:scale-[1.05] duration-200"><a href="#home">Inicio</a></li>
+                    <li className="hover:text-blue-600 hover:scale-[1.05] duration-200"><a href="#works">Soluções</a></li>
+                    <li className="hover:text-blue-600 hover:scale-[1.05] duration-200"><a href="#stack">Stack</a></li>
+                    <li className="hover:text-blue-600 hover:scale-[1.05] duration-200"><a href="#contact">Contato</a></li>
+                    <li className="hover:text-blue-600 hover:scale-[1.05] duration-200"><a href="">Sobre mim</a></li>
                 </ul>
             </nav>
 

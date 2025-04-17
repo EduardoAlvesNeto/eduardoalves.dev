@@ -4,16 +4,16 @@ export default function StackSection() {
     return (
         <section id='stack' className='px-6 py-8 lg:px-16 lg:py-8 flex flex-col items-center gap-4 w-full'>
             <div className='flex flex-col items-center'>
-                <p className='font-bold text-5xl'>Stack</p>
-                <p className='text-zinc-600 text-base text-center'>Tecnologias e boas práticas que uso para contruir suas ideais.</p>
+                <p className='font-bold text-5xl text-zinc-900'>Stack</p>
+                <p className='text-zinc-500 text-base text-center'>Tecnologias e boas práticas que uso para contruir suas ideais.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full">
-                <div className="px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
+                <div className="bg-zinc-50 px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
                     <div className="flex items-center gap-2 mb-2">
-                        <img src='react.png' className="size-12" alt="React" />
+                        <img src='react.webp' className="size-12" alt="React" />
                         <span>+</span>
-                        <img src='next.png' className="size-12" alt="Next" />
+                        <img src='next.webp' className="size-12" alt="Next" />
                     </div>
                     <p className="text-zinc-900 font-bold text-xl">
                         <strong className="text-blue-600">Front</strong>end
@@ -23,9 +23,9 @@ export default function StackSection() {
                     </span>
                 </div>
 
-                <div className="px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
+                <div className="bg-zinc-50 px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
                     <div className="flex items-center gap-2 mb-2">
-                        <img src='node.png' className="size-12" alt="Node" />
+                        <img src='node.webp' className="size-12" alt="Node" />
                     </div>
                     <p className="text-zinc-900 font-bold text-xl">
                         <strong className="text-blue-600">Back</strong>end
@@ -35,7 +35,7 @@ export default function StackSection() {
                     </span>
                 </div>
 
-                <div className="px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
+                <div className="bg-zinc-50 px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
                     <div className="flex items-center gap-2 mb-2">
                         <Layer className="fill-zinc-900 size-12" variant="Bold" />
                     </div>
@@ -47,7 +47,7 @@ export default function StackSection() {
                     </span>
                 </div>
 
-                <div className="px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
+                <div className="bg-zinc-50 px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
                     <div className="flex items-center gap-2 mb-2">
                         <GlobalSearch className="fill-zinc-900 size-12" variant="Bold" />
                     </div>

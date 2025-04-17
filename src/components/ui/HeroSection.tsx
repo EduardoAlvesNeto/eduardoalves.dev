@@ -11,11 +11,12 @@ export default function HeroSection() {
                     <div className="flex flex-col gap-2">
                         <p className="text-base lg:text-lg">Eduardo Alves</p>
                         <p className="text-3xl lg:text-4xl font-bold leading-tight">
-                            Desenvolvedor <br />
-                            <span className="text-5xl lg:text-7xl font-extrabold">
-                                <span className="text-blue-600">Full</span>stack
-                            </span>
+                            Desenvolvedor
+
                         </p>
+                        <h1 className="text-5xl lg:text-7xl font-extrabold">
+                            <span className="text-blue-600">Full</span>stack
+                        </h1>
                         <p className="text-zinc-600 text-base lg:text-lg font-medium">
                             Desenvolvo aplicações escaláveis usando as <br className="hidden lg:block" />
                             tecnologias mais modernas do mercado.
@@ -43,7 +44,7 @@ export default function HeroSection() {
                     <img
                         className="w-[300px] sm:w-[400px]"
                         src='mockup.webp'
-                        alt="Mockup"
+                        alt="Imagem de um notebook com a logo 'E'"
                         loading='lazy'
                     />
                 </div>
