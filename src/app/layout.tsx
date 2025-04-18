@@ -13,19 +13,24 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Eduardo Alves — Desenvolvedor Fullstack",
-  description: "Portfólio de Eduardo Alves, desenvolvedor fullstack especializado em JavaScript, Node.js e React. Conectando design e código para dar vida a suas ideias.",
+  title: "Eduardo Alves — Desenvolvedor Fullstack Freelancer • React, Node.js, TypeScript",
+  description: "Sou Eduardo Alves, desenvolvedor fullstack freelancer especializado em React, Node.js e TypeScript. Crio soluções digitais de alta performance, com foco em sites modernos, aplicativos responsivos e sistemas personalizados. Entre em contato para transformar suas ideias em realidade!",
   keywords: [
     "Eduardo Alves",
     "Desenvolvedor Fullstack",
     "Desenvolvedor JavaScript",
+    "Desenvolvedor React",
+    "Desenvolvedor Node.js",
     "React Developer",
-    "Node.js",
+    "Node.js Developer",
     "Portfólio Desenvolvedor",
-    "Web Developer",
     "Freelancer JavaScript",
+    "Freelancer Fullstack",
     "Programador Frontend",
-    "Programador Backend"
+    "Programador Backend",
+    "Desenvolvedor Web",
+    "Freelancer React",
+    "Freelancer Node.js"
   ],
   openGraph: {
     title: "Eduardo Alves | Desenvolvedor Fullstack",

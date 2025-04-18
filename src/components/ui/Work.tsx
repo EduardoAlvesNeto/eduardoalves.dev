@@ -1,4 +1,7 @@
+'use client'
+
 import { Code, Task, Briefcase, People } from 'iconsax-react'
+import { motion } from 'motion/react'
 
 export default function WorkSection() {
     return (
@@ -10,7 +13,22 @@ export default function WorkSection() {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-6xl">
+            <motion.div
+                initial={{
+                    opacity: 0,
+                    y: 24
+                }}
+                whileInView={{
+                    opacity: 1,
+                    y: 0
+                }}
+                viewport={{
+                    once: true
+                }}
+                transition={{
+                    duration: 0.2
+                }}
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-6xl">
                 <div className="p-6 bg-zinc-50 border border-zinc-200 rounded-2xl shadow-sm flex flex-col gap-3">
                     <Code className="size-10 stroke-blue-600" variant="Linear" />
                     <h3 className="font-medium text-lg text-zinc-900">Desenvolvimento web</h3>
@@ -42,7 +60,7 @@ export default function WorkSection() {
                         Suporte para dúvidas técnicas, decisões de stack e melhorias.
                     </p>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

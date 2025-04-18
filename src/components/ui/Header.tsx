@@ -7,7 +7,7 @@ import Logo from "../icons/Logo";
 
 export default function Header() {
     return (
-        <header className="absolute px-6 py-8 lg:px-16 lg:py-8 w-dvw flex justify-between items-center">
+        <header className="px-6 py-8 max-h-[20dvh] lg:px-16 lg:py-8 w-dvw flex justify-between items-center">
             <motion.div
                 whileHover={{
                     rotate: '-90deg',

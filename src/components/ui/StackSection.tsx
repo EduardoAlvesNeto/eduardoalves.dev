@@ -1,14 +1,33 @@
+'use client'
+
 import { GlobalSearch, Layer } from 'iconsax-react'
+import { motion } from 'motion/react'
 
 export default function StackSection() {
     return (
-        <section id='stack' className='px-6 py-8 lg:px-16 lg:py-8 flex flex-col items-center gap-4 w-full'>
+        <section id='stack' className='px-6 py-8 lg:px-16 lg:py-8 flex flex-col items-center gap-6 w-full'>
             <div className='flex flex-col items-center'>
                 <p className='font-bold text-5xl text-zinc-900'>Stack</p>
                 <p className='text-zinc-500 text-base text-center'>Tecnologias e boas práticas que uso para contruir suas ideais.</p>
             </div>
 
-            <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full">
+            <motion.div
+                initial={{
+                    opacity: 0,
+                    y: 24
+                }}
+                whileInView={{
+                    opacity: 1,
+                    y: 0
+                }}
+                viewport={{
+                    once: true
+                }}
+                transition={{
+                    duration: 0.2
+                }}
+                className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full"
+            >
                 <div className="bg-zinc-50 px-4 py-8 shadow-xs shadow-zinc-300 rounded-xl w-full sm:w-[48%] lg:w-[23%]">
                     <div className="flex items-center gap-2 mb-2">
                         <img src='react.webp' className="size-12" alt="React" />
@@ -58,7 +77,7 @@ export default function StackSection() {
                         Otimizo cada detalhe: meta tags, heading structure, imagens leves, sitemap e navegação interna bem estruturada.
                     </span>
                 </div>
-            </div>
+            </motion.div>
 
 
         </section>
