@@ -9,7 +9,7 @@ export default function Footer() {
           <Logo className="size-12 fill-zinc-100" />
         </div>
         <div>
-          <p className="text-zinc-500 text-[10px] md:text-sm text-center">© 2025 Eduardo Alves — Desenvolvedor Fullstack</p>
+          <p className="text-zinc-300 text-[10px] md:text-sm text-center">© 2025 Eduardo Alves — Desenvolvedor Fullstack</p>
         </div>
       </div>
     </footer>

@@ -8,7 +8,7 @@ export default function WorkSection() {
     <section id='works' className='px-6 py-16 lg:px-16 flex flex-col items-center gap-10 w-full bg-zinc-100 dark:bg-zinc-900 transition-colors duration-400 ease-in-out'>
       <div className='flex flex-col items-center text-center'>
         <h2 className='font-bold text-4xl text-zinc-900 md:text-5xl dark:text-zinc-100'>Como posso te ajudar</h2>
-        <p className='text-zinc-500 text-base max-w-md'>
+        <p className='text-zinc-600 text-base max-w-md'>
           Serviços e soluções que ofereço para transformar suas ideias em projetos reais.
         </p>
       </div>

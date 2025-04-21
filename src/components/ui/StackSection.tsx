@@ -8,7 +8,7 @@ export default function StackSection() {
     <section id='stack' className='px-6 py-8 lg:px-16 lg:py-8 flex flex-col items-center gap-6 w-full bg-zinc-100 dark:bg-zinc-900 transition-colors duration-400 ease-in-out'>
       <div className='flex flex-col items-center'>
         <p className='font-bold text-5xl text-zinc-900 dark:text-zinc-100'>Stack</p>
-        <p className='text-zinc-500 text-base text-center'>Tecnologias e boas práticas que uso para contruir suas ideais.</p>
+        <p className='text-zinc-600 text-base text-center'>Tecnologias e boas práticas que uso para contruir suas ideais.</p>
       </div>
 
       <motion.div

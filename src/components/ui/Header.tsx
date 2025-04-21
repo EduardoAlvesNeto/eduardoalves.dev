@@ -43,6 +43,7 @@ export default function Header() {
       <button
         onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         className="flex px-4 py-2 rounded-lg cursor-pointer"
+        aria-label='Mudar para modo escuro'
       >
         <AnimatePresence mode="wait">
           {theme === 'dark' ? (

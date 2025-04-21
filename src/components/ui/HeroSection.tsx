@@ -21,7 +21,7 @@ export default function HeroSection() {
           }}
           className="flex flex-col gap-2 items-center md:items-start"
         >
-          <p className="text-base lg:text-lg bg-blue-600/25 w-fit px-4 py-1 rounded-xl text-blue-600">Eduardo Alves</p>
+          <p className="text-base lg:text-lg bg-blue-600/10 w-fit px-4 py-1 rounded-xl text-blue-800">Eduardo Alves</p>
           <p className="text-3xl lg:text-4xl font-bold leading-tight">
             Desenvolvedor
           </p>
@@ -92,7 +92,7 @@ export default function HeroSection() {
         className="hidden md:flex sm:w-[50dvw] sm:max-h-full justify-end"
       >
         <img
-          className="w-[300px] sm:w-[250px] object-fill motion-safe:animate-pulse"
+          className="w-[300px] sm:w-[250px] object-cover motion-safe:animate-pulse"
           src='hero.webp'
           alt="Imagem de um notebook com a logo 'E'"
           loading='lazy'
