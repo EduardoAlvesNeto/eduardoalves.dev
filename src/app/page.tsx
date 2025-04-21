@@ -1,16 +1,15 @@
-'use client'
+'use client';
 
-import Head from "next/head";
-import { useContext } from "react";
-import { motion } from "motion/react";
+import Head from 'next/head';
+import { useContext } from 'react';
 
-import { ThemeContext } from "@/components/contexts/ThemeContext";
-import Header from "@/components/ui/Header";
-import HeroSection from "@/components/ui/HeroSection";
-import StackSection from "@/components/ui/StackSection";
-import ContactSection from "@/components/ui/ContactSection";
-import WorkSection from "@/components/ui/Work";
-import Footer from "@/components/ui/Footer";
+import { ThemeContext } from '@/components/contexts/ThemeContext';
+import Header from '@/components/ui/Header';
+import HeroSection from '@/components/ui/HeroSection';
+import StackSection from '@/components/ui/StackSection';
+import ContactSection from '@/components/ui/ContactSection';
+import WorkSection from '@/components/ui/Work';
+import Footer from '@/components/ui/Footer';
 
 export default function Home() {
   const { theme } = useContext(ThemeContext);
