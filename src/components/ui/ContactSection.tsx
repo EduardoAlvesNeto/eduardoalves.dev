@@ -3,7 +3,7 @@ import InstagramIcon from "../icons/InstagramIcon";
 
 export default function ContactSection() {
     return (
-        <section id="contact" className="flex flex-col justify-center items-center gap-6 px-6 py-12 lg:px-16 w-dvw h-[50dvh] bg-zinc-900 text-center">
+        <section id="contact" className="flex flex-col justify-center items-center gap-6 px-6 py-12 lg:px-16 w-dvw h-auto bg-zinc-900 text-center">
             <header>
                 <h2 className="font-[Inter] text-zinc-100 text-3xl md:text-4xl font-semibold leading-snug">
                     Torne sua <span className="bg-blue-600 px-1 rounded-md">presença digital</span> impossível de ignorar.
